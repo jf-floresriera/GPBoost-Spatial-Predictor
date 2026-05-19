@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="maiz_meta_gpboost" id="maiz_meta_gpboost">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="rendimiento" type="float"></SimpleField>
+	<SimpleField name="ndvi" type="float"></SimpleField>
+	<SimpleField name="evi" type="float"></SimpleField>
+	<SimpleField name="elevacion" type="float"></SimpleField>
+	<SimpleField name="temp_media" type="float"></SimpleField>
+</Schema>
+<Folder><name>maiz_meta_gpboost</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">7.0709</SimpleData>
+		<SimpleData name="ndvi">0.3098</SimpleData>
+		<SimpleData name="evi">0.3506</SimpleData>
+		<SimpleData name="elevacion">194.18</SimpleData>
+		<SimpleData name="temp_media">21.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1070616288043,2.99781365262086</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.899</SimpleData>
+		<SimpleData name="ndvi">0.7327</SimpleData>
+		<SimpleData name="evi">0.5744</SimpleData>
+		<SimpleData name="elevacion">574.43</SimpleData>
+		<SimpleData name="temp_media">17.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9277213300992,4.84299381399987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.2178</SimpleData>
+		<SimpleData name="ndvi">0.3046</SimpleData>
+		<SimpleData name="evi">0.2799</SimpleData>
+		<SimpleData name="elevacion">575.15</SimpleData>
+		<SimpleData name="temp_media">18.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.0462970928716,3.35960985018731</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.8359</SimpleData>
+		<SimpleData name="ndvi">0.3509</SimpleData>
+		<SimpleData name="evi">0.3086</SimpleData>
+		<SimpleData name="elevacion">429.6</SimpleData>
+		<SimpleData name="temp_media">21.69</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3973704618342,3.41940925998867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.4414</SimpleData>
+		<SimpleData name="ndvi">0.4353</SimpleData>
+		<SimpleData name="evi">0.2574</SimpleData>
+		<SimpleData name="elevacion">157.65</SimpleData>
+		<SimpleData name="temp_media">21.75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0610620604289,4.49578439604905</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.8296</SimpleData>
+		<SimpleData name="ndvi">0.8251</SimpleData>
+		<SimpleData name="evi">0.6719</SimpleData>
+		<SimpleData name="elevacion">251.49</SimpleData>
+		<SimpleData name="temp_media">21.19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6537870797511,2.83417651482315</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.4537</SimpleData>
+		<SimpleData name="ndvi">0.5181</SimpleData>
+		<SimpleData name="evi">0.497</SimpleData>
+		<SimpleData name="elevacion">510.57</SimpleData>
+		<SimpleData name="temp_media">16.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5384716032308,4.49461734640988</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.6045</SimpleData>
+		<SimpleData name="ndvi">0.624</SimpleData>
+		<SimpleData name="evi">0.5371</SimpleData>
+		<SimpleData name="elevacion">543.96</SimpleData>
+		<SimpleData name="temp_media">19.16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1303405228303,5.16357037802867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.7551</SimpleData>
+		<SimpleData name="ndvi">0.6409</SimpleData>
+		<SimpleData name="evi">0.4841</SimpleData>
+		<SimpleData name="elevacion">354.3</SimpleData>
+		<SimpleData name="temp_media">18.88</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.5381361970313,4.58893380470622</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.2103</SimpleData>
+		<SimpleData name="ndvi">0.4353</SimpleData>
+		<SimpleData name="evi">0.4045</SimpleData>
+		<SimpleData name="elevacion">314.48</SimpleData>
+		<SimpleData name="temp_media">19.95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7157649636117,3.82098362999623</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.8159</SimpleData>
+		<SimpleData name="ndvi">0.6433</SimpleData>
+		<SimpleData name="evi">0.5228</SimpleData>
+		<SimpleData name="elevacion">273.4</SimpleData>
+		<SimpleData name="temp_media">22.31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8136439676983,3.81464315313167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.0899</SimpleData>
+		<SimpleData name="ndvi">0.6966</SimpleData>
+		<SimpleData name="evi">0.6101</SimpleData>
+		<SimpleData name="elevacion">202.64</SimpleData>
+		<SimpleData name="temp_media">19.87</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0419005852319,4.79528828571792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.6994</SimpleData>
+		<SimpleData name="ndvi">0.4789</SimpleData>
+		<SimpleData name="evi">0.426</SimpleData>
+		<SimpleData name="elevacion">202.09</SimpleData>
+		<SimpleData name="temp_media">22.08</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6228555106407,4.19692600367765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.9776</SimpleData>
+		<SimpleData name="ndvi">0.5512</SimpleData>
+		<SimpleData name="evi">0.4126</SimpleData>
+		<SimpleData name="elevacion">578.67</SimpleData>
+		<SimpleData name="temp_media">19.01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.3806442067809,2.75471248957545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.3251</SimpleData>
+		<SimpleData name="ndvi">0.5719</SimpleData>
+		<SimpleData name="evi">0.5256</SimpleData>
+		<SimpleData name="elevacion">513.88</SimpleData>
+		<SimpleData name="temp_media">20.39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7039114893391,4.24801326358421</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.6917</SimpleData>
+		<SimpleData name="ndvi">0.8594</SimpleData>
+		<SimpleData name="evi">0.6801</SimpleData>
+		<SimpleData name="elevacion">224.15</SimpleData>
+		<SimpleData name="temp_media">20.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0240091885359,4.94453110868023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.0645</SimpleData>
+		<SimpleData name="ndvi">0.6525</SimpleData>
+		<SimpleData name="evi">0.4893</SimpleData>
+		<SimpleData name="elevacion">243.17</SimpleData>
+		<SimpleData name="temp_media">20.94</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.135016539093,3.51119915034283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.1532</SimpleData>
+		<SimpleData name="ndvi">0.869</SimpleData>
+		<SimpleData name="evi">0.6945</SimpleData>
+		<SimpleData name="elevacion">445</SimpleData>
+		<SimpleData name="temp_media">21.35</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.149096487705,5.28272973872617</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.4459</SimpleData>
+		<SimpleData name="ndvi">0.6336</SimpleData>
+		<SimpleData name="evi">0.5213</SimpleData>
+		<SimpleData name="elevacion">494.1</SimpleData>
+		<SimpleData name="temp_media">19.03</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.4368972523163,4.7521510010295</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.0898</SimpleData>
+		<SimpleData name="ndvi">0.6003</SimpleData>
+		<SimpleData name="evi">0.5158</SimpleData>
+		<SimpleData name="elevacion">514.64</SimpleData>
+		<SimpleData name="temp_media">18.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.4363448258063,4.22219147544989</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.4526</SimpleData>
+		<SimpleData name="ndvi">0.3021</SimpleData>
+		<SimpleData name="evi">0.2182</SimpleData>
+		<SimpleData name="elevacion">223.5</SimpleData>
+		<SimpleData name="temp_media">21.05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.2311980828974,4.75493196637876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.7061</SimpleData>
+		<SimpleData name="ndvi">0.5885</SimpleData>
+		<SimpleData name="evi">0.5375</SimpleData>
+		<SimpleData name="elevacion">592.86</SimpleData>
+		<SimpleData name="temp_media">17.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8011364118444,2.73744688221462</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.5921</SimpleData>
+		<SimpleData name="ndvi">0.8565</SimpleData>
+		<SimpleData name="evi">0.7406</SimpleData>
+		<SimpleData name="elevacion">252.51</SimpleData>
+		<SimpleData name="temp_media">21.04</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0510893502787,5.07816722704183</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.6003</SimpleData>
+		<SimpleData name="ndvi">0.419</SimpleData>
+		<SimpleData name="evi">0.3214</SimpleData>
+		<SimpleData name="elevacion">415.24</SimpleData>
+		<SimpleData name="temp_media">20.94</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.2779529786448,4.96451233960167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.778</SimpleData>
+		<SimpleData name="ndvi">0.3313</SimpleData>
+		<SimpleData name="evi">0.326</SimpleData>
+		<SimpleData name="elevacion">414.43</SimpleData>
+		<SimpleData name="temp_media">20.74</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0551132348596,5.22961497883063</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.9824</SimpleData>
+		<SimpleData name="ndvi">0.5441</SimpleData>
+		<SimpleData name="evi">0.5205</SimpleData>
+		<SimpleData name="elevacion">585.31</SimpleData>
+		<SimpleData name="temp_media">16.97</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8540821722936,2.88589359252814</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.1793</SimpleData>
+		<SimpleData name="ndvi">0.5234</SimpleData>
+		<SimpleData name="evi">0.44</SimpleData>
+		<SimpleData name="elevacion">445.95</SimpleData>
+		<SimpleData name="temp_media">19.76</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7764226887554,2.74534026128196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.3963</SimpleData>
+		<SimpleData name="ndvi">0.8143</SimpleData>
+		<SimpleData name="evi">0.6814</SimpleData>
+		<SimpleData name="elevacion">413.21</SimpleData>
+		<SimpleData name="temp_media">19.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.0434735382421,2.91524671834477</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.6518</SimpleData>
+		<SimpleData name="ndvi">0.316</SimpleData>
+		<SimpleData name="evi">0.1799</SimpleData>
+		<SimpleData name="elevacion">383.45</SimpleData>
+		<SimpleData name="temp_media">20.95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9125719072223,3.6981361303084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.12</SimpleData>
+		<SimpleData name="ndvi">0.8521</SimpleData>
+		<SimpleData name="evi">0.7039</SimpleData>
+		<SimpleData name="elevacion">494.1</SimpleData>
+		<SimpleData name="temp_media">18.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.238047752291,3.77292058324298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.8901</SimpleData>
+		<SimpleData name="ndvi">0.7085</SimpleData>
+		<SimpleData name="evi">0.5877</SimpleData>
+		<SimpleData name="elevacion">197.72</SimpleData>
+		<SimpleData name="temp_media">22.39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.3157901201099,4.18665513619272</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.6908</SimpleData>
+		<SimpleData name="ndvi">0.8425</SimpleData>
+		<SimpleData name="evi">0.7284</SimpleData>
+		<SimpleData name="elevacion">150.94</SimpleData>
+		<SimpleData name="temp_media">22.33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6325976546409,2.86673064889752</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.4128</SimpleData>
+		<SimpleData name="ndvi">0.6645</SimpleData>
+		<SimpleData name="evi">0.5564</SimpleData>
+		<SimpleData name="elevacion">578.62</SimpleData>
+		<SimpleData name="temp_media">16.03</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6382744733407,3.10419850414411</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.9779</SimpleData>
+		<SimpleData name="ndvi">0.7872</SimpleData>
+		<SimpleData name="evi">0.6813</SimpleData>
+		<SimpleData name="elevacion">374.4</SimpleData>
+		<SimpleData name="temp_media">20.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.5126298046994,4.93493304485206</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.549</SimpleData>
+		<SimpleData name="ndvi">0.5013</SimpleData>
+		<SimpleData name="evi">0.5028</SimpleData>
+		<SimpleData name="elevacion">297.75</SimpleData>
+		<SimpleData name="temp_media">19.75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6483394194083,3.90396272217025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.9631</SimpleData>
+		<SimpleData name="ndvi">0.5097</SimpleData>
+		<SimpleData name="evi">0.4068</SimpleData>
+		<SimpleData name="elevacion">315.62</SimpleData>
+		<SimpleData name="temp_media">21.59</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8754775540551,4.92381462845083</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.0696</SimpleData>
+		<SimpleData name="ndvi">0.5339</SimpleData>
+		<SimpleData name="evi">0.4293</SimpleData>
+		<SimpleData name="elevacion">511.73</SimpleData>
+		<SimpleData name="temp_media">18.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6472973860744,2.52227913563384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.878</SimpleData>
+		<SimpleData name="ndvi">0.7529</SimpleData>
+		<SimpleData name="evi">0.5745</SimpleData>
+		<SimpleData name="elevacion">322.07</SimpleData>
+		<SimpleData name="temp_media">20.17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.7132216737657,4.15477817794722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.8452</SimpleData>
+		<SimpleData name="ndvi">0.5216</SimpleData>
+		<SimpleData name="evi">0.4429</SimpleData>
+		<SimpleData name="elevacion">496.58</SimpleData>
+		<SimpleData name="temp_media">19.03</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.6116799635922,5.29579644423003</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.8552</SimpleData>
+		<SimpleData name="ndvi">0.4453</SimpleData>
+		<SimpleData name="evi">0.4274</SimpleData>
+		<SimpleData name="elevacion">348.21</SimpleData>
+		<SimpleData name="temp_media">21.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.4963266482313,4.24652637743761</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.2432</SimpleData>
+		<SimpleData name="ndvi">0.8626</SimpleData>
+		<SimpleData name="evi">0.6457</SimpleData>
+		<SimpleData name="elevacion">529.83</SimpleData>
+		<SimpleData name="temp_media">18.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.2520940964158,3.11828718233582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.2936</SimpleData>
+		<SimpleData name="ndvi">0.8448</SimpleData>
+		<SimpleData name="evi">0.6848</SimpleData>
+		<SimpleData name="elevacion">184.29</SimpleData>
+		<SimpleData name="temp_media">23.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2687632098414,4.65327268683867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.5742</SimpleData>
+		<SimpleData name="ndvi">0.5093</SimpleData>
+		<SimpleData name="evi">0.4347</SimpleData>
+		<SimpleData name="elevacion">366.51</SimpleData>
+		<SimpleData name="temp_media">21.98</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8654290363594,3.63695754909675</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.0537</SimpleData>
+		<SimpleData name="ndvi">0.6808</SimpleData>
+		<SimpleData name="evi">0.6212</SimpleData>
+		<SimpleData name="elevacion">360.08</SimpleData>
+		<SimpleData name="temp_media">22.11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6703475760927,4.50515184177838</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.3459</SimpleData>
+		<SimpleData name="ndvi">0.4643</SimpleData>
+		<SimpleData name="evi">0.4138</SimpleData>
+		<SimpleData name="elevacion">268.95</SimpleData>
+		<SimpleData name="temp_media">21.08</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.7673816842333,2.58795916868131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.5716</SimpleData>
+		<SimpleData name="ndvi">0.4237</SimpleData>
+		<SimpleData name="evi">0.3764</SimpleData>
+		<SimpleData name="elevacion">574.63</SimpleData>
+		<SimpleData name="temp_media">16.77</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.999089269207,4.40770107805407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.5909</SimpleData>
+		<SimpleData name="ndvi">0.5018</SimpleData>
+		<SimpleData name="evi">0.4153</SimpleData>
+		<SimpleData name="elevacion">557.26</SimpleData>
+		<SimpleData name="temp_media">19.65</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.5339314714746,2.59659380481377</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.8595</SimpleData>
+		<SimpleData name="ndvi">0.4963</SimpleData>
+		<SimpleData name="evi">0.4459</SimpleData>
+		<SimpleData name="elevacion">349.62</SimpleData>
+		<SimpleData name="temp_media">20.09</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5288804287786,4.7343419654253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.3753</SimpleData>
+		<SimpleData name="ndvi">0.8294</SimpleData>
+		<SimpleData name="evi">0.7557</SimpleData>
+		<SimpleData name="elevacion">193.72</SimpleData>
+		<SimpleData name="temp_media">22.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.4610297614804,3.91873900671537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.731</SimpleData>
+		<SimpleData name="ndvi">0.7934</SimpleData>
+		<SimpleData name="evi">0.5889</SimpleData>
+		<SimpleData name="elevacion">243.05</SimpleData>
+		<SimpleData name="temp_media">22.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.2742109484741,2.86526306641916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.7781</SimpleData>
+		<SimpleData name="ndvi">0.7258</SimpleData>
+		<SimpleData name="evi">0.6533</SimpleData>
+		<SimpleData name="elevacion">272.17</SimpleData>
+		<SimpleData name="temp_media">19.67</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2587426680194,4.12790777736552</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.7176</SimpleData>
+		<SimpleData name="ndvi">0.8756</SimpleData>
+		<SimpleData name="evi">0.7393</SimpleData>
+		<SimpleData name="elevacion">367.9</SimpleData>
+		<SimpleData name="temp_media">21.95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8473183989863,2.70032332967501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.6688</SimpleData>
+		<SimpleData name="ndvi">0.5535</SimpleData>
+		<SimpleData name="evi">0.444</SimpleData>
+		<SimpleData name="elevacion">302.27</SimpleData>
+		<SimpleData name="temp_media">21.85</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.2938797431781,4.46009461405912</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.4815</SimpleData>
+		<SimpleData name="ndvi">0.447</SimpleData>
+		<SimpleData name="evi">0.2578</SimpleData>
+		<SimpleData name="elevacion">498.36</SimpleData>
+		<SimpleData name="temp_media">19.37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.4098639870671,5.48825898210348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.2356</SimpleData>
+		<SimpleData name="ndvi">0.3704</SimpleData>
+		<SimpleData name="evi">0.2459</SimpleData>
+		<SimpleData name="elevacion">364.21</SimpleData>
+		<SimpleData name="temp_media">21.25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8144723324514,4.80819201122189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.5137</SimpleData>
+		<SimpleData name="ndvi">0.4806</SimpleData>
+		<SimpleData name="evi">0.4934</SimpleData>
+		<SimpleData name="elevacion">541.67</SimpleData>
+		<SimpleData name="temp_media">19.14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8917584219456,4.22132234097647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.8925</SimpleData>
+		<SimpleData name="ndvi">0.3872</SimpleData>
+		<SimpleData name="evi">0.2947</SimpleData>
+		<SimpleData name="elevacion">598.1</SimpleData>
+		<SimpleData name="temp_media">18.14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6659555779506,2.80790577763239</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.2389</SimpleData>
+		<SimpleData name="ndvi">0.3553</SimpleData>
+		<SimpleData name="evi">0.2478</SimpleData>
+		<SimpleData name="elevacion">248.93</SimpleData>
+		<SimpleData name="temp_media">21.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1373984684144,4.59950222431874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.5169</SimpleData>
+		<SimpleData name="ndvi">0.6618</SimpleData>
+		<SimpleData name="evi">0.5397</SimpleData>
+		<SimpleData name="elevacion">425.25</SimpleData>
+		<SimpleData name="temp_media">19.01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.7490863164096,4.48350360198379</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.1559</SimpleData>
+		<SimpleData name="ndvi">0.5185</SimpleData>
+		<SimpleData name="evi">0.4035</SimpleData>
+		<SimpleData name="elevacion">531.38</SimpleData>
+		<SimpleData name="temp_media">18.97</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.479155325044,2.64729139186833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.0543</SimpleData>
+		<SimpleData name="ndvi">0.6387</SimpleData>
+		<SimpleData name="evi">0.5491</SimpleData>
+		<SimpleData name="elevacion">575.36</SimpleData>
+		<SimpleData name="temp_media">18.61</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1613724340755,4.87689790553377</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.9664</SimpleData>
+		<SimpleData name="ndvi">0.4148</SimpleData>
+		<SimpleData name="evi">0.4284</SimpleData>
+		<SimpleData name="elevacion">280.54</SimpleData>
+		<SimpleData name="temp_media">22.28</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3281268948756,4.05614977267152</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">0.8741</SimpleData>
+		<SimpleData name="ndvi">0.7061</SimpleData>
+		<SimpleData name="evi">0.5709</SimpleData>
+		<SimpleData name="elevacion">477.17</SimpleData>
+		<SimpleData name="temp_media">19.43</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.2501929958088,3.77760308259976</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.3132</SimpleData>
+		<SimpleData name="ndvi">0.4293</SimpleData>
+		<SimpleData name="evi">0.3726</SimpleData>
+		<SimpleData name="elevacion">156.76</SimpleData>
+		<SimpleData name="temp_media">21.58</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1506218980244,4.8645615208044</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.913</SimpleData>
+		<SimpleData name="ndvi">0.4668</SimpleData>
+		<SimpleData name="evi">0.3394</SimpleData>
+		<SimpleData name="elevacion">545.61</SimpleData>
+		<SimpleData name="temp_media">16.97</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8153151247595,3.73470766962651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.9454</SimpleData>
+		<SimpleData name="ndvi">0.7451</SimpleData>
+		<SimpleData name="evi">0.7093</SimpleData>
+		<SimpleData name="elevacion">178.77</SimpleData>
+		<SimpleData name="temp_media">22.08</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.3336100233351,3.94307882651546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.0904</SimpleData>
+		<SimpleData name="ndvi">0.6358</SimpleData>
+		<SimpleData name="evi">0.5499</SimpleData>
+		<SimpleData name="elevacion">480.03</SimpleData>
+		<SimpleData name="temp_media">19.17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.9726343171133,3.04488652802147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.7665</SimpleData>
+		<SimpleData name="ndvi">0.5009</SimpleData>
+		<SimpleData name="evi">0.3717</SimpleData>
+		<SimpleData name="elevacion">597.57</SimpleData>
+		<SimpleData name="temp_media">17.93</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.0126672509263,3.46395669851929</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.1634</SimpleData>
+		<SimpleData name="ndvi">0.6258</SimpleData>
+		<SimpleData name="evi">0.5771</SimpleData>
+		<SimpleData name="elevacion">375.54</SimpleData>
+		<SimpleData name="temp_media">18.71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1115540788425,5.03659898968771</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.3523</SimpleData>
+		<SimpleData name="ndvi">0.7164</SimpleData>
+		<SimpleData name="evi">0.6689</SimpleData>
+		<SimpleData name="elevacion">244.2</SimpleData>
+		<SimpleData name="temp_media">22.63</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.355086085017,3.06071124678015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.7372</SimpleData>
+		<SimpleData name="ndvi">0.8473</SimpleData>
+		<SimpleData name="evi">0.7283</SimpleData>
+		<SimpleData name="elevacion">417.59</SimpleData>
+		<SimpleData name="temp_media">20.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.3085749667752,3.75187318271003</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.2473</SimpleData>
+		<SimpleData name="ndvi">0.6484</SimpleData>
+		<SimpleData name="evi">0.4692</SimpleData>
+		<SimpleData name="elevacion">430.87</SimpleData>
+		<SimpleData name="temp_media">18.87</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.7293463474497,5.4671035221859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.9738</SimpleData>
+		<SimpleData name="ndvi">0.4396</SimpleData>
+		<SimpleData name="evi">0.4629</SimpleData>
+		<SimpleData name="elevacion">450.63</SimpleData>
+		<SimpleData name="temp_media">20.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.2455020558975,3.20979943511656</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.4613</SimpleData>
+		<SimpleData name="ndvi">0.748</SimpleData>
+		<SimpleData name="evi">0.6513</SimpleData>
+		<SimpleData name="elevacion">227.68</SimpleData>
+		<SimpleData name="temp_media">22.68</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0531672836201,5.25049699881649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.5876</SimpleData>
+		<SimpleData name="ndvi">0.7667</SimpleData>
+		<SimpleData name="evi">0.7102</SimpleData>
+		<SimpleData name="elevacion">554.42</SimpleData>
+		<SimpleData name="temp_media">18.49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.46774158661,5.2551924034169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.7912</SimpleData>
+		<SimpleData name="ndvi">0.4202</SimpleData>
+		<SimpleData name="evi">0.3297</SimpleData>
+		<SimpleData name="elevacion">429.45</SimpleData>
+		<SimpleData name="temp_media">18.76</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3111362411099,2.77388902660961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.7953</SimpleData>
+		<SimpleData name="ndvi">0.7923</SimpleData>
+		<SimpleData name="evi">0.6536</SimpleData>
+		<SimpleData name="elevacion">169.61</SimpleData>
+		<SimpleData name="temp_media">23.92</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3864296152114,3.89095817465655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.8035</SimpleData>
+		<SimpleData name="ndvi">0.579</SimpleData>
+		<SimpleData name="evi">0.4976</SimpleData>
+		<SimpleData name="elevacion">457.82</SimpleData>
+		<SimpleData name="temp_media">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1820807117106,4.00664900596836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.3214</SimpleData>
+		<SimpleData name="ndvi">0.7679</SimpleData>
+		<SimpleData name="evi">0.7084</SimpleData>
+		<SimpleData name="elevacion">238.24</SimpleData>
+		<SimpleData name="temp_media">21.37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1938589697505,3.44100685015638</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.2571</SimpleData>
+		<SimpleData name="ndvi">0.4425</SimpleData>
+		<SimpleData name="evi">0.3833</SimpleData>
+		<SimpleData name="elevacion">162.3</SimpleData>
+		<SimpleData name="temp_media">23.15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1089409424582,2.64201861171321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.6739</SimpleData>
+		<SimpleData name="ndvi">0.4995</SimpleData>
+		<SimpleData name="evi">0.3618</SimpleData>
+		<SimpleData name="elevacion">397.93</SimpleData>
+		<SimpleData name="temp_media">21.64</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8624671472362,3.22505691173619</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.9278</SimpleData>
+		<SimpleData name="ndvi">0.8722</SimpleData>
+		<SimpleData name="evi">0.7545</SimpleData>
+		<SimpleData name="elevacion">515.99</SimpleData>
+		<SimpleData name="temp_media">18.34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1160594089364,2.78658892466608</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.9644</SimpleData>
+		<SimpleData name="ndvi">0.6947</SimpleData>
+		<SimpleData name="evi">0.672</SimpleData>
+		<SimpleData name="elevacion">536.97</SimpleData>
+		<SimpleData name="temp_media">19.32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3912335005645,3.21474971713724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.0879</SimpleData>
+		<SimpleData name="ndvi">0.7637</SimpleData>
+		<SimpleData name="evi">0.6525</SimpleData>
+		<SimpleData name="elevacion">196.58</SimpleData>
+		<SimpleData name="temp_media">23.98</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7220988517537,4.92337325887047</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.077</SimpleData>
+		<SimpleData name="ndvi">0.713</SimpleData>
+		<SimpleData name="evi">0.6125</SimpleData>
+		<SimpleData name="elevacion">448.37</SimpleData>
+		<SimpleData name="temp_media">18.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.649735020772,5.18493486365804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.7917</SimpleData>
+		<SimpleData name="ndvi">0.4226</SimpleData>
+		<SimpleData name="evi">0.2961</SimpleData>
+		<SimpleData name="elevacion">469.53</SimpleData>
+		<SimpleData name="temp_media">18.76</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8166600061746,2.62966867623894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.9596</SimpleData>
+		<SimpleData name="ndvi">0.5824</SimpleData>
+		<SimpleData name="evi">0.4249</SimpleData>
+		<SimpleData name="elevacion">282.53</SimpleData>
+		<SimpleData name="temp_media">20.58</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7852048666336,3.40584050878816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.0046</SimpleData>
+		<SimpleData name="ndvi">0.7854</SimpleData>
+		<SimpleData name="evi">0.6357</SimpleData>
+		<SimpleData name="elevacion">587.11</SimpleData>
+		<SimpleData name="temp_media">17.97</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.4128170724019,5.44174659578286</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.168</SimpleData>
+		<SimpleData name="ndvi">0.705</SimpleData>
+		<SimpleData name="evi">0.5829</SimpleData>
+		<SimpleData name="elevacion">275.41</SimpleData>
+		<SimpleData name="temp_media">21.04</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8904638531778,4.11851446766121</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.6414</SimpleData>
+		<SimpleData name="ndvi">0.3036</SimpleData>
+		<SimpleData name="evi">0.2633</SimpleData>
+		<SimpleData name="elevacion">181.49</SimpleData>
+		<SimpleData name="temp_media">22.49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.703628636164,4.37892808512957</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">8.093</SimpleData>
+		<SimpleData name="ndvi">0.3524</SimpleData>
+		<SimpleData name="evi">0.3079</SimpleData>
+		<SimpleData name="elevacion">383.68</SimpleData>
+		<SimpleData name="temp_media">19.34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0900823390973,2.51663622522071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.5904</SimpleData>
+		<SimpleData name="ndvi">0.5081</SimpleData>
+		<SimpleData name="evi">0.512</SimpleData>
+		<SimpleData name="elevacion">462.44</SimpleData>
+		<SimpleData name="temp_media">18.75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.509283035932,3.95472833032768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.9197</SimpleData>
+		<SimpleData name="ndvi">0.8666</SimpleData>
+		<SimpleData name="evi">0.7396</SimpleData>
+		<SimpleData name="elevacion">260.1</SimpleData>
+		<SimpleData name="temp_media">21.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7881702685651,5.46498560386716</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.7409</SimpleData>
+		<SimpleData name="ndvi">0.5947</SimpleData>
+		<SimpleData name="evi">0.5587</SimpleData>
+		<SimpleData name="elevacion">302.36</SimpleData>
+		<SimpleData name="temp_media">21.13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.9749043724291,3.62555658244839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.9994</SimpleData>
+		<SimpleData name="ndvi">0.4621</SimpleData>
+		<SimpleData name="evi">0.3908</SimpleData>
+		<SimpleData name="elevacion">403.63</SimpleData>
+		<SimpleData name="temp_media">20.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3136461668756,2.79111447591658</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.023</SimpleData>
+		<SimpleData name="ndvi">0.5163</SimpleData>
+		<SimpleData name="evi">0.5113</SimpleData>
+		<SimpleData name="elevacion">549.01</SimpleData>
+		<SimpleData name="temp_media">18.92</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1165964025996,3.88572628470535</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.3159</SimpleData>
+		<SimpleData name="ndvi">0.4264</SimpleData>
+		<SimpleData name="evi">0.2689</SimpleData>
+		<SimpleData name="elevacion">486.3</SimpleData>
+		<SimpleData name="temp_media">19.91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1977450953038,5.38901339797677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.4997</SimpleData>
+		<SimpleData name="ndvi">0.5527</SimpleData>
+		<SimpleData name="evi">0.4399</SimpleData>
+		<SimpleData name="elevacion">244.32</SimpleData>
+		<SimpleData name="temp_media">20.41</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7022474145477,3.52549184069505</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.2374</SimpleData>
+		<SimpleData name="ndvi">0.4308</SimpleData>
+		<SimpleData name="evi">0.4153</SimpleData>
+		<SimpleData name="elevacion">263.3</SimpleData>
+		<SimpleData name="temp_media">20.98</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.0182882045527,4.89676819964504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.3987</SimpleData>
+		<SimpleData name="ndvi">0.8075</SimpleData>
+		<SimpleData name="evi">0.6778</SimpleData>
+		<SimpleData name="elevacion">385.75</SimpleData>
+		<SimpleData name="temp_media">21.99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8130879719033,4.89653899363919</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.3544</SimpleData>
+		<SimpleData name="ndvi">0.5738</SimpleData>
+		<SimpleData name="evi">0.5343</SimpleData>
+		<SimpleData name="elevacion">496.03</SimpleData>
+		<SimpleData name="temp_media">19.43</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.473743691602,3.12474489021681</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.8942</SimpleData>
+		<SimpleData name="ndvi">0.4679</SimpleData>
+		<SimpleData name="evi">0.417</SimpleData>
+		<SimpleData name="elevacion">428.44</SimpleData>
+		<SimpleData name="temp_media">20.46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1667508996719,3.83010310540364</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.8014</SimpleData>
+		<SimpleData name="ndvi">0.8597</SimpleData>
+		<SimpleData name="evi">0.7781</SimpleData>
+		<SimpleData name="elevacion">375.6</SimpleData>
+		<SimpleData name="temp_media">20.52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2881830298864,4.64680382546291</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.4774</SimpleData>
+		<SimpleData name="ndvi">0.4886</SimpleData>
+		<SimpleData name="evi">0.446</SimpleData>
+		<SimpleData name="elevacion">418.71</SimpleData>
+		<SimpleData name="temp_media">20.24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2382100986718,3.73155935624178</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.1076</SimpleData>
+		<SimpleData name="ndvi">0.8458</SimpleData>
+		<SimpleData name="evi">0.7526</SimpleData>
+		<SimpleData name="elevacion">490.23</SimpleData>
+		<SimpleData name="temp_media">18.87</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8560387870634,3.07302086611126</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">8.0317</SimpleData>
+		<SimpleData name="ndvi">0.3261</SimpleData>
+		<SimpleData name="evi">0.3518</SimpleData>
+		<SimpleData name="elevacion">391.69</SimpleData>
+		<SimpleData name="temp_media">23.65</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1768713266675,5.40248292041926</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.554</SimpleData>
+		<SimpleData name="ndvi">0.7243</SimpleData>
+		<SimpleData name="evi">0.665</SimpleData>
+		<SimpleData name="elevacion">553.99</SimpleData>
+		<SimpleData name="temp_media">18.06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8069875494586,4.45225109942888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.2955</SimpleData>
+		<SimpleData name="ndvi">0.5903</SimpleData>
+		<SimpleData name="evi">0.5515</SimpleData>
+		<SimpleData name="elevacion">576.18</SimpleData>
+		<SimpleData name="temp_media">18.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3934853104066,5.0963795545687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.0304</SimpleData>
+		<SimpleData name="ndvi">0.5665</SimpleData>
+		<SimpleData name="evi">0.4826</SimpleData>
+		<SimpleData name="elevacion">561.91</SimpleData>
+		<SimpleData name="temp_media">15.96</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.791095024951,2.57572707339893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.6832</SimpleData>
+		<SimpleData name="ndvi">0.3218</SimpleData>
+		<SimpleData name="evi">0.2444</SimpleData>
+		<SimpleData name="elevacion">489.53</SimpleData>
+		<SimpleData name="temp_media">20.21</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7303243774485,3.3007174443734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">7.0936</SimpleData>
+		<SimpleData name="ndvi">0.3244</SimpleData>
+		<SimpleData name="evi">0.2428</SimpleData>
+		<SimpleData name="elevacion">260.84</SimpleData>
+		<SimpleData name="temp_media">20.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8664242057632,4.00621330098023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.0698</SimpleData>
+		<SimpleData name="ndvi">0.4997</SimpleData>
+		<SimpleData name="evi">0.4623</SimpleData>
+		<SimpleData name="elevacion">323.37</SimpleData>
+		<SimpleData name="temp_media">20.71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7914706488166,2.70234590539016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.1563</SimpleData>
+		<SimpleData name="ndvi">0.8683</SimpleData>
+		<SimpleData name="evi">0.6161</SimpleData>
+		<SimpleData name="elevacion">276</SimpleData>
+		<SimpleData name="temp_media">20.71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1578363415898,5.47909978328438</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.2688</SimpleData>
+		<SimpleData name="ndvi">0.6706</SimpleData>
+		<SimpleData name="evi">0.5046</SimpleData>
+		<SimpleData name="elevacion">445.95</SimpleData>
+		<SimpleData name="temp_media">19.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8417747309962,3.20938718859409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.0092</SimpleData>
+		<SimpleData name="ndvi">0.5213</SimpleData>
+		<SimpleData name="evi">0.395</SimpleData>
+		<SimpleData name="elevacion">295.9</SimpleData>
+		<SimpleData name="temp_media">20.76</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8226583081713,3.62287654703634</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.0387</SimpleData>
+		<SimpleData name="ndvi">0.6672</SimpleData>
+		<SimpleData name="evi">0.5547</SimpleData>
+		<SimpleData name="elevacion">489.48</SimpleData>
+		<SimpleData name="temp_media">19.06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3952598494119,3.14203574472504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.8317</SimpleData>
+		<SimpleData name="ndvi">0.4237</SimpleData>
+		<SimpleData name="evi">0.2286</SimpleData>
+		<SimpleData name="elevacion">201.08</SimpleData>
+		<SimpleData name="temp_media">21.94</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3428970637823,2.81633759831635</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.621</SimpleData>
+		<SimpleData name="ndvi">0.399</SimpleData>
+		<SimpleData name="evi">0.4021</SimpleData>
+		<SimpleData name="elevacion">498.91</SimpleData>
+		<SimpleData name="temp_media">18.86</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.4569338812053,3.19743935681271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.106</SimpleData>
+		<SimpleData name="ndvi">0.5171</SimpleData>
+		<SimpleData name="evi">0.4695</SimpleData>
+		<SimpleData name="elevacion">413.66</SimpleData>
+		<SimpleData name="temp_media">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.4946238708514,3.40183040650961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.5709</SimpleData>
+		<SimpleData name="ndvi">0.818</SimpleData>
+		<SimpleData name="evi">0.7945</SimpleData>
+		<SimpleData name="elevacion">525.92</SimpleData>
+		<SimpleData name="temp_media">20.05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5233091614344,4.40332680369832</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.4529</SimpleData>
+		<SimpleData name="ndvi">0.6056</SimpleData>
+		<SimpleData name="evi">0.5679</SimpleData>
+		<SimpleData name="elevacion">343.89</SimpleData>
+		<SimpleData name="temp_media">21.44</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.6893168486768,3.34370434435873</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.4195</SimpleData>
+		<SimpleData name="ndvi">0.4781</SimpleData>
+		<SimpleData name="evi">0.4579</SimpleData>
+		<SimpleData name="elevacion">431.23</SimpleData>
+		<SimpleData name="temp_media">20.58</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.0847282776074,3.58683028292973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.622</SimpleData>
+		<SimpleData name="ndvi">0.8702</SimpleData>
+		<SimpleData name="evi">0.8522</SimpleData>
+		<SimpleData name="elevacion">399.49</SimpleData>
+		<SimpleData name="temp_media">19.27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9150211744151,2.51782853117059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.199</SimpleData>
+		<SimpleData name="ndvi">0.7896</SimpleData>
+		<SimpleData name="evi">0.6426</SimpleData>
+		<SimpleData name="elevacion">589.05</SimpleData>
+		<SimpleData name="temp_media">19.37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.459979693855,3.59715737778209</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.3347</SimpleData>
+		<SimpleData name="ndvi">0.4938</SimpleData>
+		<SimpleData name="evi">0.3445</SimpleData>
+		<SimpleData name="elevacion">489.96</SimpleData>
+		<SimpleData name="temp_media">20.23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.6961772546787,4.10165794509488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.749</SimpleData>
+		<SimpleData name="ndvi">0.8833</SimpleData>
+		<SimpleData name="evi">0.7392</SimpleData>
+		<SimpleData name="elevacion">395.17</SimpleData>
+		<SimpleData name="temp_media">19.49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5327382301765,2.98604751115159</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.2038</SimpleData>
+		<SimpleData name="ndvi">0.8924</SimpleData>
+		<SimpleData name="evi">0.7173</SimpleData>
+		<SimpleData name="elevacion">228.31</SimpleData>
+		<SimpleData name="temp_media">23.24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9849158716918,4.29229932508112</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.5792</SimpleData>
+		<SimpleData name="ndvi">0.5452</SimpleData>
+		<SimpleData name="evi">0.4506</SimpleData>
+		<SimpleData name="elevacion">556.85</SimpleData>
+		<SimpleData name="temp_media">17.75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3712819141504,3.37945740588154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.6537</SimpleData>
+		<SimpleData name="ndvi">0.6936</SimpleData>
+		<SimpleData name="evi">0.537</SimpleData>
+		<SimpleData name="elevacion">242.63</SimpleData>
+		<SimpleData name="temp_media">19.73</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8860626317256,4.39615148440518</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.346</SimpleData>
+		<SimpleData name="ndvi">0.5434</SimpleData>
+		<SimpleData name="evi">0.4903</SimpleData>
+		<SimpleData name="elevacion">442.52</SimpleData>
+		<SimpleData name="temp_media">20.68</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7112598920944,2.57858981575253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.5271</SimpleData>
+		<SimpleData name="ndvi">0.4544</SimpleData>
+		<SimpleData name="evi">0.4119</SimpleData>
+		<SimpleData name="elevacion">571.41</SimpleData>
+		<SimpleData name="temp_media">18.17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0378539283109,5.16278038140332</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.2532</SimpleData>
+		<SimpleData name="ndvi">0.3496</SimpleData>
+		<SimpleData name="evi">0.2958</SimpleData>
+		<SimpleData name="elevacion">250.61</SimpleData>
+		<SimpleData name="temp_media">22.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1778619711416,2.54835589127012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.9508</SimpleData>
+		<SimpleData name="ndvi">0.4582</SimpleData>
+		<SimpleData name="evi">0.405</SimpleData>
+		<SimpleData name="elevacion">251.67</SimpleData>
+		<SimpleData name="temp_media">20.73</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.2986028643328,2.88087409310788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.3589</SimpleData>
+		<SimpleData name="ndvi">0.4629</SimpleData>
+		<SimpleData name="evi">0.3864</SimpleData>
+		<SimpleData name="elevacion">533.32</SimpleData>
+		<SimpleData name="temp_media">17.41</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.7682710833935,4.83148738471181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.1807</SimpleData>
+		<SimpleData name="ndvi">0.5392</SimpleData>
+		<SimpleData name="evi">0.4959</SimpleData>
+		<SimpleData name="elevacion">522.44</SimpleData>
+		<SimpleData name="temp_media">20.01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5329567815929,2.63768569660651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.0527</SimpleData>
+		<SimpleData name="ndvi">0.4109</SimpleData>
+		<SimpleData name="evi">0.3528</SimpleData>
+		<SimpleData name="elevacion">308.27</SimpleData>
+		<SimpleData name="temp_media">19.51</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.341268419244,4.63299608078653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.3655</SimpleData>
+		<SimpleData name="ndvi">0.8723</SimpleData>
+		<SimpleData name="evi">0.7282</SimpleData>
+		<SimpleData name="elevacion">269.29</SimpleData>
+		<SimpleData name="temp_media">19.75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6433054505981,5.41313842153039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.0059</SimpleData>
+		<SimpleData name="ndvi">0.3617</SimpleData>
+		<SimpleData name="evi">0.3539</SimpleData>
+		<SimpleData name="elevacion">207.32</SimpleData>
+		<SimpleData name="temp_media">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.0909142809071,5.11504879942692</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.9881</SimpleData>
+		<SimpleData name="ndvi">0.6751</SimpleData>
+		<SimpleData name="evi">0.6369</SimpleData>
+		<SimpleData name="elevacion">594.57</SimpleData>
+		<SimpleData name="temp_media">15.26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.5987270189625,4.6304849539621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.6583</SimpleData>
+		<SimpleData name="ndvi">0.565</SimpleData>
+		<SimpleData name="evi">0.5471</SimpleData>
+		<SimpleData name="elevacion">525.9</SimpleData>
+		<SimpleData name="temp_media">17.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.4044728547423,5.375529229065</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.7884</SimpleData>
+		<SimpleData name="ndvi">0.5541</SimpleData>
+		<SimpleData name="evi">0.4215</SimpleData>
+		<SimpleData name="elevacion">554.73</SimpleData>
+		<SimpleData name="temp_media">16.28</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.3133465792604,3.78944001365975</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.721</SimpleData>
+		<SimpleData name="ndvi">0.5232</SimpleData>
+		<SimpleData name="evi">0.418</SimpleData>
+		<SimpleData name="elevacion">381.16</SimpleData>
+		<SimpleData name="temp_media">20.15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9062784490386,5.11863674296542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">1.5683</SimpleData>
+		<SimpleData name="ndvi">0.821</SimpleData>
+		<SimpleData name="evi">0.6128</SimpleData>
+		<SimpleData name="elevacion">201.47</SimpleData>
+		<SimpleData name="temp_media">19.75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.6448315196957,3.56787300392084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">4.9528</SimpleData>
+		<SimpleData name="ndvi">0.4683</SimpleData>
+		<SimpleData name="evi">0.3861</SimpleData>
+		<SimpleData name="elevacion">173.66</SimpleData>
+		<SimpleData name="temp_media">21.17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3619925371396,5.28929095871154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">7.6794</SimpleData>
+		<SimpleData name="ndvi">0.3123</SimpleData>
+		<SimpleData name="evi">0.2863</SimpleData>
+		<SimpleData name="elevacion">298.76</SimpleData>
+		<SimpleData name="temp_media">23.34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.5851760049528,2.94633296872631</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.5229</SimpleData>
+		<SimpleData name="ndvi">0.8509</SimpleData>
+		<SimpleData name="evi">0.7166</SimpleData>
+		<SimpleData name="elevacion">564.15</SimpleData>
+		<SimpleData name="temp_media">18.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.9929480184038,5.32008704478482</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">2.7358</SimpleData>
+		<SimpleData name="ndvi">0.8187</SimpleData>
+		<SimpleData name="evi">0.7924</SimpleData>
+		<SimpleData name="elevacion">576.41</SimpleData>
+		<SimpleData name="temp_media">18.29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0162756963159,4.99814859184964</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">5.7986</SimpleData>
+		<SimpleData name="ndvi">0.4661</SimpleData>
+		<SimpleData name="evi">0.3759</SimpleData>
+		<SimpleData name="elevacion">528.52</SimpleData>
+		<SimpleData name="temp_media">17.09</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.4028419343115,5.03816451458939</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">3.2378</SimpleData>
+		<SimpleData name="ndvi">0.6141</SimpleData>
+		<SimpleData name="evi">0.4676</SimpleData>
+		<SimpleData name="elevacion">221.41</SimpleData>
+		<SimpleData name="temp_media">21.54</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.0826052091145,2.87176902977183</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#maiz_meta_gpboost">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="rendimiento">6.173</SimpleData>
+		<SimpleData name="ndvi">0.3655</SimpleData>
+		<SimpleData name="evi">0.3391</SimpleData>
+		<SimpleData name="elevacion">338.97</SimpleData>
+		<SimpleData name="temp_media">20.66</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8215133043898,4.28946069502521</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
