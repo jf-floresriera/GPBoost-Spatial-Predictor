@@ -2,10 +2,11 @@
 
 <div align="center">
 
-![GPBoost](https://img.shields.io/badge/GPBoost-v1.6.7-2e7d32?style=for-the-badge)
+![GPBoost](https://img.shields.io/badge/GPBoost-≥1.4.0-2e7d32?style=for-the-badge)
 ![QGIS](https://img.shields.io/badge/QGIS-3.16+-589632?style=for-the-badge&logo=qgis)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Plugin-v1.0.0-orange?style=for-the-badge)
 
 **Combines Tree-Boosting + Gaussian Processes for spatial prediction directly in QGIS**  
 **Combina Tree-Boosting + Procesos Gaussianos para predicción espacial directamente en QGIS**
@@ -23,6 +24,7 @@
 - [Installation](#-installation--instalación)
 - [Plugin Structure](#-plugin-structure--estructura-del-plugin)
 - [Step-by-Step Usage (with images)](#-step-by-step-usage--uso-paso-a-paso)
+- [New in V2: Model Comparison & Tuning](#-new-in-v2-model-comparison--tuning--nuevo-en-v2)
 - [Testing with Sample Data](#-testing-with-sample-data--prueba-con-datos-de-ejemplo)
 - [Parameters Reference](#-parameters-reference--referencia-de-parámetros)
 - [Processing Toolbox](#-processing-toolbox)
@@ -102,16 +104,16 @@ After training, the model reports:
 |---|---|
 | QGIS | ≥ 3.16 |
 | Python | 3.10 – 3.12 |
-| gpboost | ≥ 1.5.0 |
+| gpboost | ≥ 1.4.0 |
 | numpy | ≥ 1.20 |
 
 ### Step 1 — Copy plugin files / Copiar archivos del plugin
 
-Copy the `gpboost_qgis_pluging/` folder to your QGIS plugins directory:
+Copy the `gpboost_spatial_predictor_V2/` folder to your QGIS plugins directory:
 
 **Linux:**
 ```bash
-cp -r gpboost_qgis_pluging/ ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
+cp -r gpboost_spatial_predictor_V2/ ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
 ```
 
 **Windows:**
@@ -126,13 +128,21 @@ cp -r gpboost_qgis_pluging/ ~/.local/share/QGIS/QGIS3/profiles/default/python/pl
 
 ### Step 2 — Install the `gpboost` Python package / Instalar el paquete Python `gpboost`
 
+**Option A — Automatic installer (recommended) / Instalador automático (recomendado):**
+
 Open the QGIS Python Console (`Plugins → Python Console` or `Ctrl+Alt+P`) and run:
+
+```python
+exec(open("/path/to/plugin/install_gpboost_deps.py").read())
+```
+
+**Option B — Manual installation / Instalación manual:**
 
 ```python
 import subprocess, sys
 subprocess.check_call([
     sys.executable, "-m", "pip", "install",
-    "gpboost", "--break-system-packages"
+    "gpboost>=1.4.0", "--break-system-packages"
 ])
 ```
 
@@ -148,7 +158,6 @@ for p in site.getsitepackages():
     if p not in sys.path: sys.path.insert(0, p)
 import gpboost as gpb
 print("GPBoost version:", gpb.__version__)
-# Expected output: GPBoost version: 1.6.7
 ```
 
 ### Step 3 — Enable the plugin in QGIS / Activar el plugin en QGIS
@@ -164,16 +173,17 @@ print("GPBoost version:", gpb.__version__)
 ## 📁 Plugin Structure / Estructura del Plugin
 
 ```
-gpboost_qgis_pluging/
+gpboost_spatial_predictor_V2/
 │
 ├── __init__.py                 # Plugin entry point / Punto de entrada
 ├── metadata.txt                # QGIS plugin registry / Registro del plugin
 ├── gpboost_plugin.py           # Main plugin class / Clase principal
 ├── gpboost_provider.py         # Processing provider / Proveedor Processing
 ├── gpboost_algorithm.py        # Core algorithm (Processing Toolbox)
-├── gpboost_dialog.py           # Interactive Qt dialog / Diálogo interactivo Qt
+├── gpboost_dialog.py           # Interactive Qt dialog v3.1 / Diálogo interactivo Qt v3.1
 ├── install_gpboost_deps.py     # Dependency installer helper
-└── requirements.txt            # Python dependencies
+└── icons/
+    └── icon.png                # Plugin icon
 ```
 
 ```
@@ -190,60 +200,36 @@ The plugin offers **two ways** to run GPBoost / El plugin ofrece **dos formas** 
 
 | Mode / Modo | Access / Acceso | Best for / Ideal para |
 |---|---|---|
-| **Interactive Dialog** | `Plugins → GPBoost → GPBoost Spatial Predictor` | Quick exploration and model inspection |
+| **Interactive Dialog** | `Plugins → GPBoost → GPBoost Spatial Predictor` | Exploration, model inspection, multi-model comparison |
 | **Processing Toolbox** | `Processing → Toolbox → GPBoost` | Batch processing, raster export, Graphical Modeler |
 
 ---
 
-### 🔷 Mode 1: Interactive Dialog / Modo 1: Diálogo Interactivo
+### 🔷 Mode 1: Interactive Dialog v3.1 / Modo 1: Diálogo Interactivo v3.1
+
+The dialog now has **four tabs** / El diálogo ahora tiene **cuatro pestañas**:
+
+| Tab / Pestaña | Function (EN) | Función (ES) |
+|---|---|---|
+| 📊 **Datos** | Select layer and fields | Seleccionar capa y campos |
+| ⚙️ **Modelo** | Configure hyperparameters | Configurar hiperparámetros |
+| 🔬 **Comparar** | Multi-model tuning table | Tabla de comparación de múltiples modelos |
+| 📈 **Resultados** | View output and GP parameters | Ver salida y parámetros GP |
 
 #### Step 1 — Open the plugin / Abrir el plugin
 
 Go to / Ve a: **`Plugins → GPBoost → GPBoost Spatial Predictor`**
 
-The dialog has three tabs / El diálogo tiene tres pestañas:
-- 📊 **Datos** (Data) — select layer and fields
-- ⚙️ **Modelo** (Model) — configure hyperparameters
-- 📈 **Resultados** (Results) — view output
+#### Step 2 — Configure the Data tab / Configurar la pestaña 📊 Datos
 
-```
-┌─────────────────────────────────────────────┐
-│  🌿 GPBoost Spatial Predictor               │
-│  Tree-Boosting + Gaussian Process           │
-│─────────────────────────────────────────────│
-│  [ 📊 Datos ] [ ⚙️ Modelo ] [ 📈 Resultados ]│
-│─────────────────────────────────────────────│
-│  Capa de puntos:    [ gpboost_test     ▼ ]  │
-│  Variable resp. (y):[ rendimiento      ▼ ]  │
-│  Covariables (X):   [ ndvi              ]   │
-│                     [ evi               ]   │
-│                     [ elevacion         ]   │
-│                     [ temp_media        ]   │
-│─────────────────────────────────────────────│
-│  [▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 0%             ]     │
-│  [ ▶ Ejecutar GPBoost ] [ ✕ Cancelar ]      │
-└─────────────────────────────────────────────┘
-```
+1. **Capa de puntos** → Select your point vector layer
+2. **Variable respuesta (y)** → Select the numeric field to predict
+3. **Covariables (X)** → Select one or more predictor fields (`Ctrl+click` for multiple)
+4. **Normalizar variables** ✓ → *(New in V2)* Standardizes y and X before training (recommended for heterogeneous covariates / recomendado para covariables heterogéneas)
 
-#### Step 2 — Configure the Data tab / Configurar la pestaña Datos
+> **Tip:** Leave covariates empty to use coordinates as covariates — pure spatial GP kriging.
 
-In the **📊 Datos** tab:
-
-1. **Capa de puntos** → Select your point vector layer  
-   *(Must be a Point geometry layer with numeric attribute fields)*
-
-2. **Variable respuesta (y)** → Select the field you want to predict  
-   *(e.g., `rendimiento`, `ndvi`, `disease_severity`)*
-
-3. **Covariables (X)** → Select one or more predictor fields  
-   *(Hold `Ctrl+click` to select multiple fields)*  
-   *(Leave empty to use coordinates as covariates — pure spatial GP kriging)*
-
-> **Important / Importante:** The response variable field and covariate fields must be **numeric** (Double or Integer). String fields are automatically excluded from the list.
-
-#### Step 3 — Configure the Model tab / Configurar la pestaña Modelo
-
-In the **⚙️ Modelo** tab:
+#### Step 3 — Configure the Model tab / Configurar la pestaña ⚙️ Modelo
 
 | Parameter (ES) | Parameter (EN) | Default | Recommended range |
 |---|---|---|---|
@@ -253,63 +239,107 @@ In the **⚙️ Modelo** tab:
 | Profundidad máxima | Max depth | `3` | 2 – 6 |
 | Iteraciones boosting | Boosting iterations | `50` | 50 – 500 |
 
-**GP Covariance functions / Funciones de covarianza GP:**
+**GP Covariance functions / Funciones de covarianza GP (V2 expanded):**
 
-| Function | Shape | Best for / Ideal para |
+| Function | Parameters | Best for / Ideal para |
 |---|---|---|
-| `exponential` | Exponential decay | Default, most spatial data / Por defecto, mayoría de datos espaciales |
-| `gaussian` | Gaussian bell | Very smooth spatial fields / Campos muy suaves |
-| `matern32` | Matérn ν=3/2 | Moderately smooth / Moderadamente suave |
-| `matern52` | Matérn ν=5/2 | Smoother than exponential / Más suave que exponencial |
-| `powered_exponential` | Flexible power | Custom decay shapes / Formas de decaimiento personalizadas |
+| `exponential` | shape = 0.0 | Default, most spatial data |
+| `gaussian` | shape = 0.0 | Very smooth spatial fields |
+| `matern (v=0.5)` | shape = 0.5 | Equivalent to exponential |
+| `matern (v=1.5)` | shape = 1.5 | Moderately smooth fields |
+| `matern (v=2.5)` | shape = 2.5 | Smoother than exponential |
+| `powered_exponential` | shape = 1.0 | Custom decay shapes |
+| `wendland` | shape = 0.0 | Compact support, large datasets |
 
 #### Step 4 — Run the model / Ejecutar el modelo
 
-Click **`▶ Ejecutar GPBoost`**
+Click **`▶ Ejecutar GPBoost`** for a single model, or **`⚡ Comparar/Tuning`** for multi-model comparison.
 
-The progress bar shows the training stages / La barra de progreso muestra las etapas de entrenamiento:
+The progress bar shows / La barra de progreso muestra:
 ```
-10%  → Extracting data from layer / Extrayendo datos de la capa
-25%  → Configuring GP model / Configurando modelo GP
-40%  → Training (n iterations) / Entrenando (n iteraciones)
-80%  → Computing RMSE and GP parameters / Calculando RMSE y parámetros GP
-100% → Complete! / ¡Completo!
+10%  → Extracting data from layer
+15%  → Normalizing variables (if enabled)
+25%  → Configuring GP model
+40%  → Training (n iterations)
+80%  → Computing RMSE, R² and GP parameters
+100% → Complete!
 ```
 
 #### Step 5 — Interpret results / Interpretar resultados
 
-In the **📈 Resultados** tab you will see / En la pestaña verás:
+In the **📈 Resultados** tab:
 
 ```
-==============================================
-   ✅ GPBoost Entrenamiento Completo
-==============================================
-  GPBoost versión     : 1.6.7
-  Muestras usadas     : 150
-  RMSE (entrenamiento): 0.1823
+==================================================
+   GPBoost -- Resultado del modelo unico
+==================================================
+  GPBoost version     : 1.6.x
+  Muestras            : 150
+  Normalizado         : Si / No
+  Funcion GP          : exponential
+  Learning rate       : 0.01
+  Iteraciones         : 50
 
-  Parámetros GP estimados:
+  RMSE                : 0.1823
+  R²                  : 0.8741          ← New in V2
+
+  Parametros GP estimados:
     error_variance         : 0.089200
     gp_variance            : 0.003800
     gp_range               : 0.074800
-==============================================
-  ℹ️  Para exportar raster de predicción:
-  Processing → GPBoost → Train & Predict
-==============================================
+==================================================
+  Para comparar modelos -> pestaña Comparar
+==================================================
 ```
 
 **Interpreting GP parameters / Interpretando los parámetros GP:**
 
-- **`error_variance` (σ²)** — Pure error/nugget. Low value → data has good quality. If very high relative to `gp_variance`, the spatial signal is weak. / Error puro/pepita. Valor bajo → datos de buena calidad.
-- **`gp_variance` (σ²_GP)** — Spatial variance captured by the GP. Higher values indicate strong spatial autocorrelation. / Varianza espacial capturada por el GP.
-- **`gp_range` (ρ)** — Distance (in coordinate units) over which spatial correlation decays. Interpret in the same CRS units as your layer. / Distancia en la que la correlación espacial decae.
+- **`error_variance` (σ²)** — Pure error/nugget. Low value → good data quality.
+- **`gp_variance` (σ²_GP)** — Spatial variance captured by the GP. Higher → strong spatial autocorrelation.
+- **`gp_range` (ρ)** — Distance (in CRS units) over which spatial correlation decays.
+
+---
+
+## 🆕 New in V2: Model Comparison & Tuning / Nuevo en V2
+
+The **🔬 Comparar** tab allows comparing multiple model configurations in a single run.
+
+### How to use / Cómo usar
+
+1. Configure the base parameters in the **📊 Datos** and **⚙️ Modelo** tabs
+2. Go to **🔬 Comparar** tab
+3. Add experiments manually to the table, or load a **Preset** (e.g., "Grid Search básico")
+4. Each row defines: `Label | Learning Rate | Num. Leaves | Max Depth | N. Iter | Cov. Function | Cov. Shape`
+5. Click **`⚡ Comparar/Tuning`** — the plugin trains all experiments sequentially
+
+### Results table / Tabla de resultados
+
+| Column | Description |
+|---|---|
+| Modelo | Experiment label |
+| LR | Learning rate used |
+| N. iter | Boosting iterations |
+| Función GP | Covariance function |
+| RMSE | Root Mean Squared Error |
+| R² | Coefficient of determination (new) |
+| GP Var | Estimated GP variance (σ²_GP) |
+| Rango | Estimated GP range (ρ) |
+
+The **best model** (lowest RMSE) is highlighted in green. All failed models are highlighted in red.
+
+### Variable normalization / Normalización de variables
+
+When **Normalizar variables** is enabled:
+- `y` is standardized: `y_norm = (y − ȳ) / σ_y`
+- `X` is standardized column-wise: `X_norm = (X − X̄) / σ_X`
+- Predictions are back-transformed to original units automatically
+- Recommended when covariates have very different scales (e.g., NDVI ∈ [0,1] and elevation ∈ [0, 5000 m])
 
 ---
 
 ### 🔷 Mode 2: Processing Toolbox / Modo 2: Processing Toolbox
 
-For **batch processing** and **raster prediction export**, use the Processing Toolbox algorithm.  
-Para **procesamiento por lotes** y **exportación de rasters de predicción**, usa el algoritmo del Processing Toolbox.
+For **batch processing** and **raster prediction export**, use the Processing Toolbox algorithm.
 
 #### Access / Acceso
 
@@ -326,16 +356,18 @@ Para **procesamiento por lotes** y **exportación de rasters de predicción**, u
 | Learning rate | Float | Shrinkage per iteration | Reducción por iteración |
 | Num. leaves | Int | Tree complexity | Complejidad del árbol |
 | Max depth | Int | Max tree depth | Profundidad máxima |
-| Boosting iterations | Int | Number of trees | Número de árboles |
+| Boosting iterations | Int | Number of trees (default: **200**) | Número de árboles (defecto: **200**) |
 | Prediction extent | Extent | Spatial extent to predict | Extensión para predecir |
 | Pixel size | Float | Output raster resolution | Resolución del raster de salida |
 | Use cross-validation | Boolean | Find optimal n_iter via CV | Encontrar n_iter óptimo via VC |
-| CV folds | Int | Number of CV folds | Número de folds de validación cruzada |
+| CV folds | Int | Number of CV folds (default: 4) | Número de folds (defecto: 4) |
 
 #### Output / Salida
 
 - **Prediction raster** (`.tif`): GeoTIFF with predicted values, LZW compressed, tiled.
-- **RMSE**: Numeric output — training RMSE or cross-validation RMSE if CV enabled.
+- **RMSE**: Training RMSE or CV RMSE if cross-validation is enabled.
+
+> **Note on cross-validation:** When `Use cross-validation = True`, the algorithm uses `gpb.cv()` with `early_stopping_rounds=10` to find the optimal number of iterations, then retrains the final model with that optimal value. The reported RMSE corresponds to CV performance.
 
 ---
 
@@ -347,45 +379,28 @@ A test dataset is provided at / Se provee un dataset de prueba en:
 test_plugin/test_maiz_meta_gpboost.kml
 ```
 
-This dataset simulates **maize yield observations** in the **Meta department, Colombia**, with:  
-Este dataset simula **observaciones de rendimiento de maíz** en el **departamento del Meta, Colombia**, con:
+This dataset simulates **maize yield observations** in the **Meta department, Colombia**:
 
-| Field / Campo | Description (EN) | Descripción (ES) | Units / Unidades |
+| Field / Campo | Description (EN) | Descripción (ES) | Units |
 |---|---|---|---|
 | `rendimiento` | Maize grain yield | Rendimiento de grano de maíz | t/ha |
-| `ndvi` | Normalized Difference Vegetation Index | Índice de Vegetación de Diferencia Normalizada | 0 – 1 |
+| `ndvi` | Normalized Difference Vegetation Index | NDVI | 0 – 1 |
 | `evi` | Enhanced Vegetation Index | Índice de Vegetación Mejorado | 0 – 1 |
 | `elevacion` | Elevation above sea level | Elevación sobre el nivel del mar | m |
 | `temp_media` | Mean air temperature | Temperatura media del aire | °C |
 
-**Spatial coverage / Cobertura espacial:** Meta, Colombia (lon: -73.5° to -71.5°, lat: 2.5° to 5.5°)  
-**N observations / N observaciones:** 150 points  
-**CRS:** EPSG:4326 (WGS 84)
+**Spatial coverage:** Meta, Colombia (lon: -73.5° to -71.5°, lat: 2.5° to 5.5°) | **N:** 150 points | **CRS:** EPSG:4326
 
-### Quick test steps / Pasos de prueba rápida
-
-**Step 1** — Load the test layer in QGIS / Cargar la capa de prueba en QGIS:
-```
-Layer → Add Layer → Add Vector Layer → test_plugin/test_maiz_meta_gpboost.kml
-```
-Or drag and drop the `.kml` file directly into the QGIS canvas.  
-O arrastra el archivo `.kml` directamente al canvas de QGIS.
-
-**Step 2** — Open the plugin / Abrir el plugin:
-```
-Plugins → GPBoost → GPBoost Spatial Predictor
-```
-
-**Step 3** — Configure as follows / Configurar de la siguiente manera:
+### Quick test configuration / Configuración de prueba rápida
 
 ```
-📊 Datos tab:
+📊 Datos:
   ├── Capa de puntos    →  test_maiz_meta_gpboost
   ├── Variable resp.(y) →  rendimiento
-  └── Covariables (X)   →  ndvi  (Ctrl+click)
-                           evi   (Ctrl+click)
+  ├── Covariables (X)   →  ndvi, evi  (Ctrl+click)
+  └── Normalizar        →  ✓ (recommended)
 
-⚙️ Modelo tab:
+⚙️ Modelo:
   ├── Función GP        →  exponential
   ├── Learning rate     →  0.01
   ├── Num. hojas        →  31
@@ -393,19 +408,16 @@ Plugins → GPBoost → GPBoost Spatial Predictor
   └── Iteraciones       →  50
 ```
 
-**Step 4** — Click `▶ Ejecutar GPBoost` and check the **📈 Resultados** tab.
-
 **Expected results / Resultados esperados:**
 
 ```
-RMSE (entrenamiento): ~0.15 – 0.25 t/ha
-gp_variance         : > 0.001  (spatial signal present)
-gp_range            : 0.05 – 2.0  (in decimal degrees)
+RMSE            : ~0.15 – 0.25 t/ha
+R²              : ~0.70 – 0.90
+gp_variance     : > 0.001  (spatial signal present)
+gp_range        : 0.05 – 2.0  (decimal degrees)
 ```
 
 ### Quick test from Python Console / Prueba rápida desde la consola Python
-
-You can also verify the full pipeline works from the QGIS Python Console before using the GUI:
 
 ```python
 import sys, site
@@ -415,18 +427,16 @@ for p in site.getsitepackages():
 import gpboost as gpb
 import numpy as np
 
-# Simulate 100 points in Meta, Colombia
 np.random.seed(42)
 n = 100
 coords = np.column_stack([
-    np.random.uniform(-73.5, -71.5, n),  # longitude
-    np.random.uniform(2.5, 5.5, n)       # latitude
+    np.random.uniform(-73.5, -71.5, n),
+    np.random.uniform(2.5, 5.5, n)
 ])
-X = np.random.uniform(0.3, 0.9, (n, 2))  # ndvi, evi
+X = np.random.uniform(0.3, 0.9, (n, 2))
 y = np.sin(3 * np.pi * X[:,0]) + np.random.normal(0, 0.2, n)
 
-# Train GPBoost
-gp_model  = gpb.GPModel(gp_coords=coords, cov_function="exponential", likelihood="gaussian")
+gp_model = gpb.GPModel(gp_coords=coords, cov_function="exponential", likelihood="gaussian")
 data_train = gpb.Dataset(data=X, label=y)
 bst = gpb.train(
     params={"learning_rate": 0.01, "max_depth": 3, "num_leaves": 31, "verbose": -1},
@@ -435,7 +445,7 @@ bst = gpb.train(
     num_boost_round=50
 )
 gp_model.summary()
-print("✅ GPBoost works correctly / GPBoost funciona correctamente!")
+print("✅ GPBoost works correctly!")
 ```
 
 ---
@@ -444,24 +454,12 @@ print("✅ GPBoost works correctly / GPBoost funciona correctamente!")
 
 ### Boosting Parameters / Parámetros de Boosting
 
-| Parameter | Default | Range | Effect (EN) | Efecto (ES) |
-|---|---|---|---|---|
-| `learning_rate` | 0.01 | 0.001 – 1.0 | Lower = slower but more precise learning | Menor = aprendizaje más lento pero preciso |
-| `num_leaves` | 31 | 2 – 1024 | Higher = more complex trees, risk of overfitting | Mayor = árboles más complejos, riesgo sobreajuste |
-| `max_depth` | 3 | -1 – 20 | Limits tree depth; -1 = unlimited | Limita profundidad; -1 = sin límite |
-| `n_iter` | 50 | 10 – 5000 | Number of trees in ensemble | Número de árboles en el ensamble |
-
-### GP Parameters (auto-estimated) / Parámetros GP (auto-estimados)
-
-These are **not set by the user** — they are estimated from the data via maximum likelihood during training. They appear in the Results tab after training.
-
-Estos **no son configurados por el usuario** — se estiman de los datos mediante máxima verosimilitud durante el entrenamiento.
-
-| Parameter | Formula | Interpretation |
-|---|---|---|
-| `error_variance` | σ² | Nugget effect — measurement noise |
-| `gp_variance` | σ²_GP | Partial sill — spatial signal strength |
-| `gp_range` | ρ | Range in map units — spatial influence distance |
+| Parameter | Default | Range | Effect |
+|---|---|---|---|
+| `learning_rate` | 0.01 | 0.001 – 1.0 | Lower = slower but more precise |
+| `num_leaves` | 31 | 2 – 256 | Higher = more complex trees, risk of overfitting |
+| `max_depth` | 3 | -1 – 20 | Limits tree depth; -1 = unlimited |
+| `n_iter` | 50 (dialog) / **200 (toolbox)** | 10 – 5000 | Number of trees in ensemble |
 
 ### Recommendations by use case / Recomendaciones por caso de uso
 
@@ -471,20 +469,18 @@ Estos **no son configurados por el usuario** — se estiman de los datos mediant
 | Medium dataset (100 – 500) | 0.01 | 31 | 3 | 100 – 200 |
 | Large dataset (> 500) | 0.005 | 63 | 4 | 200 – 500 |
 | Many covariates (> 10) | 0.01 | 63 | 5 | 200 |
+| With normalization enabled | 0.01 | 31 | 3 | 100 – 200 |
 
 ---
 
 ## 🔧 Troubleshooting / Solución de Problemas
 
 ### Problem: Plugin does not appear in the Plugins menu
-### Problema: El plugin no aparece en el menú de Plugins
 
-**Cause / Causa:** Plugin folder name must match the `name` in `metadata.txt`.
+**Cause:** Plugin folder name must match the `name` in `metadata.txt` → `GPBoost Spatial Predictor`.
 
-**Solution / Solución:**
 ```bash
-# Check the folder exists
-ls ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/gpboost_qgis_pluging/
+ls ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
 # Must contain metadata.txt
 ```
 
@@ -492,16 +488,15 @@ ls ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/gpboost_qgis_plugin
 
 ### Problem: `ModuleNotFoundError: No module named 'gpboost'`
 
-**Cause / Causa:** QGIS Python cannot find the `gpboost` package installed in the system.
+**Solution:** Run in QGIS Python Console:
 
-**Solution / Solución:** Run in QGIS Python Console:
 ```python
 import sys, site
 for p in site.getsitepackages():
     if p not in sys.path: sys.path.insert(0, p)
 sys.path.insert(0, site.getusersitepackages())
 import gpboost
-print(gpboost.__version__)  # Should print 1.6.7
+print(gpboost.__version__)
 ```
 
 This is **permanently fixed** in `gpboost_plugin.py` via the `_fix_sys_path()` function that runs automatically when the plugin loads.
@@ -509,31 +504,19 @@ This is **permanently fixed** in `gpboost_plugin.py` via the `_fix_sys_path()` f
 ---
 
 ### Problem: Combo boxes (layer, fields) appear empty
-### Problema: Los combos (capa, campos) aparecen vacíos
 
-**Cause / Causa:** The dialog was opened before the layer was loaded, or `sys.path` was not configured.
-
-**Solution / Solución:**
 ```python
-# Reload the plugin from QGIS Python Console
 from qgis.utils import reloadPlugin
-reloadPlugin('gpboost_qgis_pluging')
+reloadPlugin('gpboost_spatial_predictor_V2')
 ```
-Then reopen the dialog. The `_populate_layers()` function refreshes the layer list every time the dialog is opened.
 
 ---
 
-### Problem: Training error — `CalledProcessError` or `Booster init failed`
-### Problema: Error de entrenamiento
+### Problem: Training error — not enough points
 
-**Common causes / Causas comunes:**
-1. Not enough valid points (minimum 10 required / mínimo 10 requeridos)
-2. Missing values (None/NULL) in target or covariate fields
-3. Covariate matrix is 1D instead of 2D (fixed in `gpboost_dialog.py` v2)
+The plugin requires **a minimum of 10 valid points** (non-null geometry + non-null target + non-null covariates).
 
-**Diagnostic / Diagnóstico:**
 ```python
-# Check your layer for null values
 layer = iface.activeLayer()
 nulls = sum(1 for f in layer.getFeatures() if f["rendimiento"] is None)
 print(f"Null values in target field: {nulls}")
@@ -541,10 +524,18 @@ print(f"Null values in target field: {nulls}")
 
 ---
 
-### Problem: Grid prediction raster is too large
-### Problema: El raster de predicción es demasiado grande
+### Problem: All experiments in Comparison tab fail
 
-**Solution / Solución:** Increase the pixel size in the Processing Toolbox algorithm. The limit is 2,000,000 pixels (n_cols × n_rows). For a 1° × 1° extent in EPSG:4326, use pixel size ≥ 0.001 (≈ 111m).
+**Common causes:**
+1. Mistyped numeric values in the experiment table (verify with the row number shown in the error)
+2. Covariance function name not matching the internal map (use the dropdown labels exactly)
+3. Dataset too small for the number of CV folds (increase point count or reduce folds)
+
+---
+
+### Problem: Grid prediction raster is too large
+
+The maximum grid size is **2,000,000 pixels** (n_cols × n_rows). For a 1° × 1° extent in EPSG:4326, use pixel size ≥ 0.001 (≈ 111 m).
 
 ---
 
@@ -562,6 +553,19 @@ print(f"Null values in target field: {nulls}")
 
 ---
 
+## 🆕 Changelog / Historial de cambios
+
+### v1.0.0 — V2 (2026)
+- **New tab: 🔬 Comparar** — multi-model comparison and hyperparameter tuning table with preset experiments
+- **New metric: R²** — coefficient of determination reported alongside RMSE in all outputs
+- **Variable normalization** — optional standardization of y and X before training, with automatic back-transformation
+- **Extended GP covariance functions** — added `matern (v=0.5)`, `matern (v=1.5)`, `matern (v=2.5)`, and `wendland` with explicit `cov_fct_shape` mapping
+- **Improved cross-validation** — `early_stopping_rounds=10` in Processing Toolbox for more robust optimal iteration search
+- **Default iterations increased** — Processing Toolbox default changed from 50 → 200
+- **Best model highlighting** — tuning results table highlights best model in green, failed runs in red
+
+---
+
 ## 👥 Authors / Autores
 
 **Santiago Gallego** & **Jesús Enrique Flores Riera**  
@@ -574,4 +578,3 @@ Repository: https://github.com/jf-floresriera/GPBoost-Spatial-Predictor
 
 MIT License — Free to use, modify and distribute with attribution.  
 MIT License — Libre para usar, modificar y distribuir con atribución.
-
