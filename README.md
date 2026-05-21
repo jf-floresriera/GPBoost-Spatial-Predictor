@@ -6,7 +6,7 @@
 ![QGIS](https://img.shields.io/badge/QGIS-3.16+-589632?style=for-the-badge&logo=qgis)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Version](https://img.shields.io/badge/Plugin-v1.0.0-orange?style=for-the-badge)
+![Version](https://img.shields.io/badge/Plugin-v2.0.0-orange?style=for-the-badge)
 
 **Combines Tree-Boosting + Gaussian Processes for spatial prediction directly in QGIS**  
 **Combina Tree-Boosting + Procesos Gaussianos para predicción espacial directamente en QGIS**
